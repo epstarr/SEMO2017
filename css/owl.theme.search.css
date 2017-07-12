@@ -29,14 +29,16 @@
     font-size: 14px;
     margin: 5px;
     padding: 4px 7px;
-    background: #D6D6D6;
+    background: #F15C3B;
     display: inline-block;
     cursor: pointer;
     border-radius: 3px; }
     .owl-search .owl-nav [class*='owl-']:hover {
-      background: #869791;
-      color: #FFF;
+      background: #fff;
+      color: #F15C3B;
       text-decoration: none; }
+      .owl-search .owl-nav [class*='owl-']:active {
+      margin-top: 7px !important; }
   .owl-search .owl-nav .disabled {
     opacity: 0.5;
     cursor: default; }

@@ -163,7 +163,10 @@ section#search {
   font-weight: 900;
   color: #fff;
 }
-
+.home-testimonial {
+  background-image: url('../img/lines-texture.png');
+  background-repeat: repeat;
+}
 .home-testimonial .image img{
   position: absolute;
   top: -4px;

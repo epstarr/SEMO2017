@@ -26,10 +26,10 @@
   <section id="search">
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-5 col-md-4">
         <h2 class="home-header black-arial">Search <span style="color: #fff;">semo.edu</span></h2>
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-7 col-md-8">
         <input type="text" name="" placeholder="search here"/>
         </div>
       </div>
@@ -290,10 +290,21 @@ $('#owl-news').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
-    items:5,
+    items:6,
     stagePadding: 25,
     dots: false,
-    navText : ["<span class='glyphicons glyphicons-chevron-left'></span>","<span class='glyphicons glyphicons-chevron-right'></span>"]
+    navText : ["<span class='glyphicons glyphicons-chevron-left'></span>","<span class='glyphicons glyphicons-chevron-right'></span>"],
+    responsive : {
+    // breakpoint from 0 up
+    0 : {
+        items : 2,
+    },
+    // breakpoint from 480 up
+    480 : {
+        items : 4,
+    }
+    // breakpoint from 768 up
+  }
 });
 </script>
 

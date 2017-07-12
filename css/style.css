@@ -1,0 +1,287 @@
+@font-face {
+  font-family: "Arial Black";
+  src: local('Arial Black');
+  font-weight: 900;
+}
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+}
+
+section {
+  padding: 60px 0;
+}
+section.home-testimonial {
+  padding: 0;
+}
+section:first-of-type {
+  padding: 0;
+}
+section#search {
+  padding: 20px 0;
+  background-color: #c8102e;
+}
+#search input {
+  margin-top: 62px;
+  height: 76px;
+  border: 0;
+  padding: 15px;
+  width: 100%;
+  font-size: 26px;
+  background-color: #9d2235;
+  color: #fff;
+}
+#search input::-webkit-input-placeholder { /*WebKit, Blink, Edge */
+  color: #fff;
+  opacity: 0.6;
+}
+#search input::-moz-input-placeholder { /* Mozilla Firefox 19+ */
+  color: #fff;
+  opacity: 0.6;
+}
+#search input::-ms-input-placeholder { /* Edge */
+  color: #fff;
+  opacity: 0.6;
+}
+#search input:-moz-input-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+  opacity: 0.6;
+}
+#search input:-ms-input-placeholder { /* IE 10-11 */
+  color: #fff;
+  opacity: 0.6;
+}
+#academics {
+  background-image: url('../img/2014-BS-Management-AE0212-020.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: static;
+}
+#campus-life {
+  background-image: url('../img/CampusLife.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: static;
+}
+.white-arial {
+  color: #fff;
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.black-arial {
+  color: #000;
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.red-arial {
+  color: #c8102e;
+  font-family: 'Arial Black', Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.text-white {
+  color: #fff;
+}
+.hero-banner-wrapper {
+  background-image: url('http://placehold.it/1920x800');
+  background-position: center center;
+  height: 700px;
+}
+.hero-banner h2 {
+    text-align: left;
+}
+.home-header {
+  margin: 60px 0;
+  font-size: 48px;
+  letter-spacing: -3px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.home-header span {
+    color: #c8102e;
+}
+.home-form-wrap {
+  background-color: #000;
+}
+.home-form-wrap:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #c8102e;
+  -webkit-clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.home-form-wrap:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #c8102e;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.home-form {
+  background-color: #c8102e;
+  padding: 20px; 
+}
+
+.form-heading {
+  font-size: 24px;
+}
+.btn-red-home {
+  padding: 15px 10px;
+  border-radius: 0px;
+  background-color: #c8102e;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 900;
+}
+
+.demographics a h3{
+  text-align: center;
+  float: right;
+  position: relative;
+  bottom: 51px;
+  background: #c8102e;
+  text-transform: uppercase;
+  width: 175px;
+  padding: 8px 0 8px 20px;
+  -webkit-clip-path: polygon(25px 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(25px 0%, 100% 0%, 100% 100%, 0% 100%);
+  font-size: 14px;
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 900;
+  color: #fff;
+}
+
+.home-testimonial .image img{
+  position: absolute;
+  top: -4px;
+  right: 15px;
+  -webkit-clip-path: polygon(40% 0%, 100% 0%, 60% 100%, 0% 100%);
+  clip-path: polygon(40% 0%, 100% 0%, 60% 100%, 0% 100%);
+}
+.home-testimonial .blurb {
+  padding: 40px 0;
+  font-size: 22px;
+}
+
+#academics .program-card {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #000;
+}
+#academics .glyphicons-display {
+  color: #151f6d;
+}
+#academics .glyphicons-flower {
+  color: #71cc98;
+}
+#academics .glyphicons-music {
+  color: #f1b434;
+}
+#academics .glyphicons-stethoscope {
+  color: #71c5e8;
+}
+#academics .glyphicons-education {
+  color: #c5e860;
+}
+#academics .glyphicons-briefcase {
+  color: #7a6855;
+}
+h3 {
+  color: #c8102e;
+  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#academics .program-card:hover {
+  text-decoration: none;
+  background-color: #c8102e;
+  color: #fff;
+  cursor: pointer
+}
+
+#academics .program-card:hover h3, #academics .program-card:hover .glyphicons{
+  color: #fff;
+}
+
+#academics .program-card .red-arial {
+  letter-spacing: -1px;
+
+}
+
+#academics .program-more {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+#campus-life .activity-card {
+  padding: 15px;
+  background: #fff;
+
+}
+
+#feeds {
+  background-color: #1f1f1f;
+}
+#owl-news .owl-stage-outer {
+  overflow: visible;
+}
+#owl-news .item {
+  padding-top: 20px;
+}
+#owl-news .item .date {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  padding: 17px 13px;
+  background: #fff;
+  width: 70px;
+  height: 70px;
+  color: #c8102e;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+#owl-news .item .date span {
+  color: #000;
+  font-size: 20px;
+}
+#owl-news .item img {
+  max-height: 200px;
+  object-fit: cover;
+}
+#owl-news .item .headline {
+  font-weight: 900;
+  font-size: 18px;
+  color: #fff;
+}
+#owl-news .item p {
+  margin-top: 15px;
+  color: #fff;
+}
+
+/* Animations */

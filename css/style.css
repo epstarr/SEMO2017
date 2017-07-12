@@ -289,14 +289,15 @@ h3 {
   width: 70px;
   height: 70px;
   color: #c8102e;
+  font-size: 20px;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
-  line-height: 1.1;
+  line-height: 0.9;
 }
 #owl-news .item .date span {
   color: #000;
-  font-size: 20px;
+  font-size: 24px;
 }
 #owl-news .item img {
   max-height: 200px;

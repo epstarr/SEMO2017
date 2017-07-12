@@ -256,9 +256,6 @@ h3 {
 #feeds {
   background-color: #1f1f1f;
 }
-#owl-news .owl-stage-outer {
-  overflow: visible;
-}
 #owl-news .item {
   padding-top: 20px;
 }

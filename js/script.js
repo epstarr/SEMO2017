@@ -9,7 +9,6 @@ PopularQueryRenderer.prototype.render = function(queries) {
       (queries.maxNumberOfPopularQueries < numberOfPopularQueriesToShow)) {
     numberOfPopularQueriesToShow = queries.maxNumberOfPopularQueries;
   }
-  document.createElement("div");
   for (var i = 0; i < numberOfPopularQueriesToShow; i++) {
     var item = document.createElement("div");
     item.setAttribute("class", 'item');
@@ -22,5 +21,4 @@ PopularQueryRenderer.prototype.render = function(queries) {
     this.container.appendChild(item);
     this.container.appendChild(document.createTextNode(" "));
   }
-  document.appendChild("div");
 };

@@ -105,6 +105,9 @@ section#search {
 .home-header span {
     color: #c8102e;
 }
+#queries .item a {
+  color: #fff;
+}
 .home-form-wrap {
   background-color: #000;
 }

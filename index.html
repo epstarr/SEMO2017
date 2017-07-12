@@ -39,7 +39,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <div id="queries"></div>
+          <div id="queries" class="owl-carousel owl-theme"></div>
         </div>
       </div>
     </div>
@@ -270,4 +270,15 @@ $('#owl-news').owlCarousel({
 </script>
 <script src="js/script.js"></script>
 <script src="https://cse.google.com/api/003895368717983625087/cse/xfzycdjq5go/queries/js?view=day&callback=(new+PopularQueryRenderer(document.getElementById(%22queries%22))).render"></script>
+<script type="text/javascript">$('#queries').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    items:6,
+    stagePadding: 25,
+    dots: false,
+    navText : ["<span class='glyphicons glyphicons-chevron-left'></span>","<span class='glyphicons glyphicons-chevron-right'></span>"]
+});
+</script>
+
 </html>
